@@ -1,0 +1,12 @@
+v: 0
+micros:
+  - name: ausn-bot
+    src: .
+    engine: python3.9
+    run: python bot.py
+    presets:
+      env:
+        - name: TELEGRAM_BOT_TOKEN
+          description: Telegram Bot Token from BotFather
+          default: ""
+
